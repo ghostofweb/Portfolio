@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="img/ghostofweb.png" class="icon">
+    
+</head>
+<body>
+    <header>
+        <a href="" class="logo-holder">
+        <div class="logo"><img src="img/ghostofweb.png"width="80px" alt=""></div>
+        <div class="logo-text">Ghost of Web</div>
+         </a>
+        <nav>
+           <ul id="menu">
+            <li><a href="#">home</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="mailto:sahiljeetsinghkalsi@gmail.com" class="button">contact me</a></li>
+           </ul>
+           <a href="#" class="mobile-toggle" onClick="toggleMobileMenu()"> 
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+          </svg>
+          </a>
+        </nav>
+    </header>    
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1 ><small>Hi I'm</small>
+                   <b>Sahiljeet Singh kalsi</b></h1>
+                    <p>
+                        I'm a Web Developer
+                         with expertise in HTML, 
+                         CSS, JavaScript, Node.js,
+                         Express,REST APIs, PostgreSQL, 
+                         C/C++, Python, React, and MongoDB. 
+                        <span>I'm currently pursuing a BCA 
+                            and am passionate about creating
+                            dynamic web solutions.</span> 
+                    </p>
+                    <div class="call-to-action">
+                        <a href="./img/Resume.pdf" class="button black">view resume </a>
+                        <a href="mailto:Sahiljeetsinghkalsi@gmail.com" class="button white">contact me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/ghostofweb"><img src="./img/github.png" width="40px" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/sahiljeet-singh-kalsi-085844244/"><img src="./img/linkedin.png" width="40px" alt="github"></a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="hero-yellow">
+                <!-- <img src="" width="100%" alt="Sahiljeet singh kalsi"> -->
+            </div>
+        </section>
+        <section id="skills" class="logos container  ">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./img/html.png" width="128px" alt="logo 1">
+                    <img src="./img/css.png"  width="128px"  alt="logo 2">
+                    <img src="./img/javascript.png" width="128px"  alt="logo 3">
+                    <img src="img/vscode.png" width="128px"  alt="logo 4">
+                    <img src="img/react.png"  width="128px" alt="logo 5">
+                    <img src="./img/python.png" width="128px"  alt="logo 6">
+                    <img src="./img/mongoDB.png"  width="128px" alt="logo 7">
+                    <img src="img/postgreSQL.avif" width="128px" alt="logo 8">
+                    <img src="img/c+++.png" alt="logo" width="128px">
+                    <img src="img/nodejs.png"  width="128px" alt="logo 10">
+                    <img src="./img/html.png" width="128px" alt="logo 1">
+                    <img src="./img/css.png"  width="128px"  alt="logo 2">
+                    <img src="./img/javascript.png" width="128px"  alt="logo 3">
+                    <img src="img/vscode.png" width="128px"  alt="logo 4">
+                    <img src="img/react.png"  width="128px" alt="logo 5">
+                    <img src="./img/python.png" width="128px"  alt="logo 6">
+                    <img src="./img/mongoDB.png"  width="128px" alt="logo 7">
+                    <img src="img/postgreSQL.avif" width="128px" alt="logo 8">
+                    <img src="img/c+++.png" alt="logo" width="128px">
+                    <img src="img/nodejs.png"  width="128px" alt="logo 10">
+                </div>
+            </div>
+        
+        </section>
+        <section class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Nodejs</li>
+                        <li>ExpressJS</li>
+                    </ul>
+                    <h3>Database</h3>
+                    <ul><li>PostgreSQL</li>
+                    <li>MongoDB</li></ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>I'm a passionate web developer 
+                        currently pursuing a BCA and
+                         consistently ranking among 
+                         the top students. I excel in 
+                         communication, teamwork, and
+                          leadership. My dedication to 
+                          continuous learning and community 
+                          service drives me to make a
+                           positive impact through my 
+                           work and contributions.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="bento">
+            <h2>
+                <small>Previous</small>
+                Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <div class="bento-item">
+                    <a href="">  <img src="img/bento-1.jpg" width="100%" alt=""></a>
+                </div>
+                <div class="bento-item">
+                    <a href="">  <img src="img/bento-2.jpg"  width="100%" alt=""></a>
+                </div>
+                <div class="bento-item">
+                    <a href=""> <img src="img/bento-3.jpg"  width="100%" alt=""></a>
+                </div>
+                <div class="bento-item">
+                    <a href=""> <img src="img/bento-4.jpg"  width="100%" alt=""></a>
+                </div>
+                <div class="bento-item">
+                    <a href=""> <img src="img/bento-5.jpg"  width="100%" alt=""></a>
+                </div>
+                <div class="bento-item">
+                    <a href="">  <img src="img/bento-6.jpg" width="100%"  alt=""></a>
+                </div>
+                
+             </div>
+        </section>
+        <!-- <section class="chatbot container">
+            <h2><small>Talk to meChatbot</small> @Azura</h2>
+            <div class="chatbot-blue">
+                <div class="chat-info">
+                    <h3>Azura AI chat-bot</h3>
+                    <p>Here I've put together an AI chat-bot which knows all my skills
+                    , work experience and has a copy of my CV/Resume. Feel free to 
+                        to ask question about me to get better idea of what i do (:
+                    </p>
+                    <p>You can also download my Resume here if you want to take a good look into it
+                        and connect with me on my socials.
+                    </p>   
+                    <a href="#" class="button black">Download Resume</a>
+                </div>
+                <div class="chat-box">
+                    <div class="scroll-area">
+                        <ul id="chat-log">
+                            <li>
+                                <span class="avatar bot">AI</span>
+                                    <div class="messages">
+                                        hello,I'm a friendly chatbot that lets you interact with this portfolio and CV.How can I help you?
+                                    </div>
+                            </li>
+                            <li>
+                                <span class="avatar USER">U</span>
+                                    <div class="messages">
+                                       i have a question about this Resume         
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chat-message">
+                        <input type="text" placeholder="Hey Sahiljeet, what skills your best at ?">
+                        <button class="button black"></button>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+    </main>
+
+</body>
+</html>
